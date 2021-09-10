@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
       "'pageHeader pageHeader pageHeader' 'pageSubheader pageSubheader pageSubheader' 'pageNav pageContent pageSidebar'",
     gridTemplateRows: 'max-content auto 1fr',
     gridTemplateColumns: 'auto 1fr auto',
-    height: '100vh',
+    minHeight: '100vh',
     overflowY: 'auto',
   },
 }));

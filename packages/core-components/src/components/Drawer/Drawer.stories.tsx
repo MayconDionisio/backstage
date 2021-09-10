@@ -34,6 +34,7 @@ export default {
 const useDrawerStyles = makeStyles((theme: Theme) =>
   createStyles({
     paper: {
+      height: '100vh',
       width: '50%',
       justifyContent: 'space-between',
       padding: theme.spacing(2.5),
